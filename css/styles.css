@@ -180,7 +180,7 @@ ul {
     url(../images/hero-background-photo.jpg);
     background-position: center;
     background-repeat: no-repeat; 
-    min-width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 .hero-container {
@@ -252,9 +252,11 @@ ul {
   margin-bottom: 10px;
 }
 .second-section-icon-container{
+    width: 100%;
+    height: 120px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -420,7 +422,7 @@ ul {
 .footer-container{
     display: flex;
     align-items: baseline;
-    gap: 70px;
+    gap: 93px;
     padding-left: 0;
 }
 
@@ -564,17 +566,17 @@ ul {
   padding-left: 0;
 }
 .variant-menu-link{
+  display: block;
   text-decoration: none;
 }
-.variant-menu-item:hover {
+.variant-menu-link:hover,
+.variant-menu-link:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* .variant-menu-link:hover{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 .variant-description-item {
   padding: 20px 24px;
-  border: 1px #eeeeee;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .variant-menu h2 {
   margin-bottom: 4px;
